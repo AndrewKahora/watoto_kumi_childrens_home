@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: #226447;
+}
+
+h1 {
+    color: #769f8d;
+    text-align: center;
+    font-family: "oswald";
+    
+    h2 {colour:green;
+        font-family:"Open Sans" 
+    }    
+}
+
+p {
+    font-family: "Roboto Condensed";
+    font-size: 11px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e6b7b7;
+}
+
+li {
+    float: left;
+    
+}
+
+li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding:28px;
+    text-decoration: #767630;
+}li a:hover {
+    background-color: #111;
+}
+}</style>
