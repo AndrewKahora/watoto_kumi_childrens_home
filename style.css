@@ -1,7 +1,7 @@
 
 <style>
 body {
-    background-color: #226447;
+    background-color: #10a53e;
 }
 
 h1 {
@@ -50,18 +50,14 @@ li a {
     background-color: #111;
 }
 div.img {
-    margin: 5px;
-    border: 1px solid #ccc;
+    margin: 23px;
+    border: 0px solid #e9f5f5;
     float: left;
-    width: 180px;
+    width: 5px;
 }	
 
-div.img:hover {
-    border: 1px solid #777;
-}
-
 div.img img {
-    width: 100%;
+    width: auto;
     height: auto;
 }
 
