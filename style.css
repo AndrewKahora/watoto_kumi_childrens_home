@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
+
 <style>
 body {
     background-color: #226447;
@@ -24,7 +22,7 @@ h1 {
 </head>
 <body>
 p {
-    font-family: "Roboto Condensed";
+    font-family: "monospace";
     font-size: 34px;
 }
 ul {
@@ -70,4 +68,6 @@ div.img img {
 div.desc {
     padding: 15px;
     text-align: center;
+    
+    
 
