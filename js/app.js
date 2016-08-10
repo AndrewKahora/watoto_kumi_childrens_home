@@ -1,1 +1,2 @@
-$(document).foundation()
+$(document).foundation();
+new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ) )
