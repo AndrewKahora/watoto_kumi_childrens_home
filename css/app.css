@@ -1,18 +1,167 @@
-.scroller {
-	height: 100%;
-}
-
-.scroller {
-	overflow-y: scroll;
-}
-
-.scroller,
-.scroller-inner {
-	position: relative;
-}
-
-.container {
-	position: relative;
-	overflow: hidden;
-	background: #34495e;
-}
+.textcolor{
+        color: #c0392b;
+    }
+    .textcolor_hover:hover{
+        color: #c0392b;
+    }
+    .bgcolor{
+        background-color: #c0392b;
+    }
+    .bgcolor_hover:hover{
+        background-color: #c0392b;
+    }
+    .bordercolor{
+        border-color: #c0392b;
+    }
+    .social a:hover img{
+        background-color: #c0392b;
+    }
+    .menuContainer>ul.menu>li.menuactive>a,
+    .menuContainer>ul.menu>li>a:hover{
+        background-color: #c0392b;
+    }
+    .menuContainer div.menuLevel>ul.menuDrop>li:hover>a{
+        background-color: #c0392b;
+    }
+    .menuContainer div.menuLevel>ul.menuDrop>li>div.menuDropArrow{
+        background-color: #c0392b;
+    }
+    .titleContainer{
+        border-bottom-color: #c0392b;
+    }
+    .titleContainer .title{
+        border-bottom-color: #c0392b;
+    }
+    .titleContainer .clientsNav .clientsNavPrev{
+        background-color: #c0392b;
+    }
+    .titleContainer .clientsNav .clientsNavNext{
+        background-color: #c0392b;
+    }
+    .widgetFlickr .widgetFlickrImg:hover{
+        border-color: #c0392b;
+    }
+    .contact .contactForm fieldset.contactFormButtons input[type="submit"]:hover,
+    .contactForm fieldset.contactFormButtons input[type="submit"]:hover,
+    .contact .contactForm fieldset.contactFormButtons input[type="reset"]:hover,
+    .contactForm fieldset.contactFormButtons input[type="reset"]:hover{
+        background-color: #c0392b;
+    }
+    .pageSlider ul.pageSliderNav li.active,
+    .pageSlider ul.pageSliderNav li:hover{
+        background-color: #c0392b;
+    }
+    .widgetCategories ul li a span{
+        background-color: #c0392b;
+    }
+    .widgetCategories ul li a:hover{
+        color: #c0392b;
+    }
+    .widgetGallery .widgetGalleryImg a:hover img{
+        border-color: #c0392b;
+    }
+    .widgetWorks .widgetWorksEntry .widgetWorksEntryImg a span{
+        background-color: #c0392b;
+    }
+    .widgetWorks .widgetWorksEntry .widgetWorksEntryImg a:hover img{
+        border-color: #c0392b;
+    }
+    .works .worksFilter ul.worksFilterCategories li.worksFilterCategoriesActive div,
+    .works .worksFilter ul.worksFilterCategories li:hover div{
+        background-color: #c0392b;
+    }
+    .works .worksViews .worksViewsOption.worksViewsOptionActive,
+    .works .worksViews .worksViewsOption:hover{
+        border-color: #c0392b;
+    }
+    .works .worksContainer.worksContainerView1 .worksEntry .worksEntryContainer .worksEntryInfo .worksEntryInfoMore:hover{
+        background-color: #c0392b;
+    }
+    .works .worksContainer.worksContainerView2 .worksEntry .worksEntryContainer .worksEntryInfo .worksEntryInfoTitle a:hover{
+        color: #c0392b;
+    }
+    .blog .blogEntry .blogEntryTitle a:hover{
+        color: #c0392b;
+    }
+    .blog .blogEntry .blogEntryFooter .blogEntryFooterComments a{
+        color: #c0392b;
+        border-color: #c0392b;
+    }
+    .blogNav a.blogNavActive,
+    .blogNav a:hover{
+        color: #c0392b;
+    }
+    .post .postForm .postFormButtons input:hover{
+        background-color: #c0392b;
+    }
+    .project .projectInfo .projectInfoDetails .projectInfoDetailsEntry .projectInfoDetailsEntryBody a{
+        color: #c0392b;
+    }
+    .footer .footerColumn .widget .widgetBody a:hover{
+        color: #c0392b;
+    }
+    .sidebar .widget_teslawp_categories ul li a span{
+        background-color: #c0392b;
+    }
+    ul.page-numbers a:hover,
+    ul.page-numbers span.current{
+        color: #c0392b;
+    }
+    #postForm p.form-submit #submit:hover{
+        background-color: #c0392b;
+    }
+    #reply-title a:hover{
+        color: #c0392b;
+    }
+    .sidebar .widget table tfoot tr td a:hover{
+        color: #c0392b;
+    }
+    .sidebar .widget table tbody tr td a:hover{
+        background-color: #c0392b;
+    }
+    .sidebar .widget .tagcloud a:hover,
+    .sidebar .widget .textwidget a:hover{
+        color: #c0392b;
+    }
+    .sidebar .widget .widgetTitle a:hover{
+        color: #c0392b;
+    }
+    .sidebar .widget #searchform #searchsubmit:hover{
+        background-color: #c0392b;
+    }
+    .sidebar .widgetWorks .widgetWorksEntry .widgetWorksEntryImg a:hover{
+        border-color: #c0392b;
+    }
+    .searchNoResults form input#searchsubmit:hover{
+        background-color: #c0392b;
+    }
+    .footerColumn a:hover{
+        color: #c0392b;
+    }
+    .footerColumn .widget_search #searchsubmit:hover{
+        background-color: #c0392b;
+    }
+    .menuContainer > ul.menu > li.current_page_item > a,
+    .menuContainer > ul.menu > li.current-menu-item > a{
+        background-color: #c0392b;
+    }
+    .post-numbers{
+        color: #c0392b;
+    }
+    .post-numbers a:hover,
+    .postFooter a:hover,
+    .pingback a:hover,
+    .postCommentsEntryBodyMessage a:hover,
+    .post .postBody a:hover,
+    .pageContents a:hover,
+    .postCommentsEntryBodyUser a:hover,
+    .trackback a:hover{
+        color: #c0392b;
+    }
+    .pageContents input[type="submit"]:hover,
+    .pageContents input[type="reset"]:hover{
+        background-color: #c0392b;
+    }
+    .sidebar .widget ul li a:hover, .sidebar .widget_teslawp_categories ul li a:hover{
+        color: #c0392b;
+    }
