@@ -1,3 +1,6 @@
+.row{
+    max-width: 100%;
+}
 input[type=text] {
     width: 130px;
     box-sizing: border-box;
@@ -11,13 +14,14 @@ input[type=text] {
     padding: 12px 20px 12px 40px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
+
+     float: right;
 }
 
 input[type=text]:focus {
     width: 100%;
 }
 .header{
-    display: inline-block;
 
 }
 .Watotohead{
@@ -25,5 +29,13 @@ input[type=text]:focus {
     text-align: center;
 }
 .searchbar{
-
+    width: 100%
+}
+i{
+    width: 25px;
+    height: 25px;
+}
+.marque{
+    font-size: 15px;
+    color: #b3c9dd
 }
