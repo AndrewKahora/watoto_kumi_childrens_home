@@ -16,3 +16,10 @@ input[type=text] {
 input[type=text]:focus {
     width: 100%;
 }
+.header{
+    display: inline-block;
+
+}
+.Watotohead{
+    font-size: 23px;
+}
