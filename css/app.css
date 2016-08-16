@@ -39,3 +39,8 @@ i{
     font-size: 15px;
     color: #b3c9dd
 }
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
