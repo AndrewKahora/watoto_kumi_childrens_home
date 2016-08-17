@@ -5,6 +5,8 @@ new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( '
 
   owl.owlCarousel({
     navigation : true,
+    slideSpeed :300,
+    paginationSpeed :400,
     singleItem : true,
     transitionStyle : "fade"
   });
