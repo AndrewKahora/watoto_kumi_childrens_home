@@ -1,7 +1,7 @@
 $(document).foundation();
 new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ) )
 
-  var owl = $("#owl-demo");
+  var owl = $("#slider");
 
   owl.owlCarousel({
     navigation : true,
