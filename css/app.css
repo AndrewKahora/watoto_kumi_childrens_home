@@ -1,5 +1,5 @@
 .row{
-    max-width: 100%;
+    max-width: 93%;
 }
 input[type=text] {
     width: 130px;
@@ -25,8 +25,8 @@ input[type=text]:focus {
 
 }
 .Watotohead{
-    font-size: 36px;
-    text-align: center;
+    font-size: 46px;
+    text-align:left;
 }
 .searchbar{
     width: 100%
@@ -34,6 +34,7 @@ input[type=text]:focus {
 i{
     width: 25px;
     height: 25px;
+    text-align: center;
 }
 .marque{
     font-size: 15px;
@@ -49,5 +50,16 @@ i{
     border: 12px;
     font-size: 33px;
     padding-top: 34px;
-
+    padding-bottom: 23px
+}
+p{
+    text-align: center;
+    font-size: 30px
+}
+.foot{
+    font-size: 20px;
+    text-align: center;
+}
+.footer{
+    background-color: #3a6060
 }
