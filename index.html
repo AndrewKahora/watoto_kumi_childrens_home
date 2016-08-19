@@ -28,7 +28,7 @@
                   </div>
               <div class="large-6 medium-10 columns">
 
-                  <h3 class="Watotohead">Watoto Kumi Childrens home</h3>
+                  <h3 class="Watotohead" id="home">Watoto Kumi Childrens home</h3>
               </div>
 
 
@@ -47,7 +47,7 @@
 			<div class="menu-wrap">
 				<nav class="menu">
 					<div class="icon-list">
-						<a href="#"><i class="fa fa-home"></i><span>Home</span></a>
+						<a href="#home"><i class="fa fa-home"></i><span>Home</span></a>
 						<a href="#About we"><i class="fa fa-user"></i><span>About us</span></a>
 						<a href="#Donation"><i class="fa fa-archive"></i><span>Donations</span></a>
 						<a href="#Locations"><i class="fa fa-map-marker"></i><span>Location</span></a>
@@ -187,6 +187,23 @@
     </div>
           </div>
       </div>
+
+      <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>
     </body>
 </html>
 
